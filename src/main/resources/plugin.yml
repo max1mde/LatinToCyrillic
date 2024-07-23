@@ -1,0 +1,5 @@
+name: LatinToCyrillic
+version: '${version}'
+main: com.maximde.latintocyrillic.LatinToCyrillic
+api-version: '1.21'
+author: MaximDe
