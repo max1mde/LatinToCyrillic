@@ -28,7 +28,7 @@ public class Config {
         useKeyboardLayout = this.cfg.getBoolean("Chat.KeyboardConversion");
     }
 
-    private void initConIfig() {
+    private void initConfig() {
         setValueIfNotSet("Chat.Prefix", "!");
         setValueIfNotSet("Chat.KeyboardConversion", false);
         saveConfig();
